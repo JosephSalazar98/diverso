@@ -1,0 +1,17 @@
+{
+  "name": "frescomar",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "sass assets/scss/style.scss style.css --style=compressed",
+    "watch": "sass --watch assets/scss/style.scss:style.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.83.4"
+  }
+}
